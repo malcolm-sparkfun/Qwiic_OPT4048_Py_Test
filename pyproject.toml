@@ -33,4 +33,4 @@ classifiers=[
 keywords=["electronics", "maker", "sensing"]
 
 [tool.setuptools]
-py-modules=["qwiic_opt4048"]
+py-modules=["qwiic_opt4048", "opt4048_registers"]
