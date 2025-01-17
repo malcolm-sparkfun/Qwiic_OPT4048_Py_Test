@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="sparkfun_opt4048_tristimulus_color_sensor"
+version="1.0.0"
+description="SparkFun Electronics Tristiumulus Color Sensor - OPT4048"
+url="https://www.sparkfun.com/products/22638"
+author="Sparkfun Electroncis"
+author_email="info@sparkfun.com"
+install_requires=["sparkfun_qwiic_i2c"]
+license="MIT"
+classifiers=[
+    # How mature is this project? Common values are
+    #   3 - Alpha
+    #   4 - Beta
+    #   5 - Production/Stable
+    "Development Status :: 5 - Production/Stable",
+
+    # Indicate who your project is intended for
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+
+    # Pick your license as you wish (should match "license" above)
+    "License :: OSI Approved :: MIT License",
+
+    # Specify the Python versions you support here. In particular, ensure
+    # that you indicate whether you support Python 2, Python 3 or both. 
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords=["electronics", "maker", "sensing"]
+
+[tool.setuptools]
+py-modules=["qwiic_opt4048"]
