@@ -31,9 +31,7 @@ classifiers=[
     "Programming Language :: Python :: 3.11",
 ]
 keywords=["electronics", "maker", "sensing"]
-dependencies = [
-    "sparkfun_qwiic_i2c"
-]
+dependencies = ["sparkfun_qwiic_i2c"]
 
 [tool.setuptools]
 # py-modules=["qwiic_opt4048", "opt4048_registers"] # Circup gets upset if there are multiple modules...
